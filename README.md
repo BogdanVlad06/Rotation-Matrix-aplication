@@ -19,15 +19,9 @@ R(\theta) = \begin{bmatrix}
 $$
 
 ## Example:
-If the original point is **P(1, 0)** and we rotate it by **θ = 45°**, we can use the rotation matrix to calculate the new point **P'**:
+If the original point is $\mathbf{P}(1, 0 \)$ and we rotate it by $\theta = 45^\circ = \frac{\pi}{4} \ \text{radians}$, we can use the rotation matrix to calculate the new point $\mathbf{P'}$:
 
-1. **Convert the angle to radians**:
-
-$$
-\theta = 45^\circ = \frac{\pi}{4} \, \text{radians}
-$$
-
-2. **Apply the rotation matrix**:
+1. **Apply the rotation matrix**:
 
 $$
 \mathbf{P'} = \begin{bmatrix} 
@@ -36,19 +30,13 @@ $$
 \end{bmatrix}
 \cdot 
 \begin{bmatrix} 1 \\
-0 \end{bmatrix}
-$$
-
-3. **This results in**:
-   
-$$
-   \mathbf{P'} = \begin{bmatrix} 
+0 \end{bmatrix} = \begin{bmatrix} 
    \frac{\sqrt{2}}{2} \\
    \frac{\sqrt{2}}{2}
    \end{bmatrix}
-   $$
+$$
 
-4. **Therefore, the new point is approximately**:
+2. **Therefore, the new point is approximately**:
 
 $$
 \mathbf{P'} \approx (0.707, 0.707)
